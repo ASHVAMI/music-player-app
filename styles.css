@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+form {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"],
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover,
+form button:hover {
+    background: #555;
+}
+
+
+.main-content {
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.song-list {
+    list-style: none;
+    padding: 0;
+}
+
+.song-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.song-list li:last-child {
+    border-bottom: none;
+}
+
+.song-list li:hover {
+    background: #f0f0f0;
+}
+
+.music-player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.music-player button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.music-player button:hover {
+    background: #555;
+}
+
+.music-player .controls {
+    display: flex;
+    align-items: center;
+}
+
+.music-player .controls span {
+    margin: 0 10px;
+}
+
+
+.playlist {
+    margin: 20px 0;
+}
+
+.playlist h2 {
+    margin-bottom: 10px;
+}
+
+.playlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+.playlist ul li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+
+.playlist ul li:hover {
+    background: #f0f0f0;
+}
